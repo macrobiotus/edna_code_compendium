@@ -19,7 +19,7 @@ I started this new analysis of my Antarctic data during  New Zealand's first loc
 
 In this project I investigate the distribution of cryptic Antarctic invertebrates living in remote island-like terrestrial habitats of Antarctica in relation to soil geochemical and mineral properties of their substrate. I found neutral substrate pH, low conductivity, and some substrate minerals to be important predictors of presence for basidiomycetes, chlorophytes, ciliophorans, nematodes, or tardigrades. We collected soils in the [Prince Charles Mountains](https://en.wikipedia.org/wiki/Prince_Charles_Mountains), I analyzed soil environmental DNA at the [Australian Centre for Ancient DNA](https://www.adelaide.edu.au/acad/). Soil geochemical variables were measured by [APAL](https://www.apal.com.au/). I collected X-ray diffraction spectra at the [University of Canberra](https://www.canberra.edu.au/).
 
-![](/Users/paul/Bewerbungen/220314_ecohealth_alliance/code_sample_preparation/_DSC0622.JPG)
+![](mount_menzies.jpg)
 
 _Field work at Mt. Menzies_
 
@@ -71,11 +71,11 @@ I started this analysis in addition to the sequencing of the [Haast's eagle](htt
 
 In this project I evaluated the impact of lacking environmental DNA reference data on descriptions of the Fiordland fish biodiversity I compared eDNA-derived species identifications against Baited Remote Underwater Video (BRUV) data collected at the same time and locations as the eDNA data. Furthermore, I cross referenced both eDNA and BRUV data against species lists for the same region obtained from literature surveys and the Ocean Biodiversity Information System (OBIS).  Concordance of taxonomies between the data sources dissolved with lowering taxonomic levels, most decisively so for eDNA data. The work was entirely realized at the [University of Otago](https://www.otago.ac.nz/).
 
-![](/Users/paul/Bewerbungen/220314_ecohealth_alliance/code_sample_preparation/FiordlandDec2019[LBJ]-064A6085.jpg)
+![](rubber_boat.jpg)
 
 During review, an often-overlooked aspect of this analysis has been the detailed alignment-level analysis of species misidentifications, at a level that is uncommon in other eDNA studies. It is absolutely crucial to have detailed reference data for species level biodiversity surveys. 
 
-![](/Users/paul/Bewerbungen/220314_ecohealth_alliance/code_sample_preparation/7_regression_summary.png)
+![]regression_summary.png)
 
 _Summary of binomial regression. Regression analysis of the 142 non-unique eDNA observations (Tjur's R2 0.027) suggested each additional alignment gap to be associated with a 39% increased probability of observing a non-native species (Odds Ratio 1.39, 95% CI from 1.19 to 1.66, p <0.01). At the same time, a 1% increase in alignment concordance was associated with a 7% increased probability of non-native observation (OR 1.07, 95% CI 1.03 - 1.12, p <0.01)._
 
