@@ -1,6 +1,6 @@
 # EHA code compendium
 
-I provide two **samples of my existing work** concerning [environmental DNA analysis] (https://en.wikipedia.org/wiki/Environmental_DNA) in the [Prince Charles Mountains](https://en.wikipedia.org/wiki/Prince_Charles_Mountains) and [Fiordland](https://en.wikipedia.org/wiki/Fiordland). Alongside code comments and structure I include brief remarks on the both projects. Beyond **this text** note further cross-references:
+I provide two **samples of my existing work** concerning [environmental DNA analysis](https://en.wikipedia.org/wiki/Environmental_DNA) in the [Prince Charles Mountains](https://en.wikipedia.org/wiki/Prince_Charles_Mountains) and [Fiordland](https://en.wikipedia.org/wiki/Fiordland). Alongside code comments and structure I include brief remarks on the both projects. Beyond **this text** note further cross-references:
 
 * Code is accessible via [Github](https://github.com/macrobiotus) 
 * Further supplemental materials are available via [Zenodo](https://zenodo.org/)
