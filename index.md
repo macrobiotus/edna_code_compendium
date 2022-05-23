@@ -10,7 +10,6 @@ Code for both described projects was listed on my original EHA application. Furt
 
 ## Example 1: _Antarctic biodiversity predictions through substrate qualities and environmental DNA_
 
-
 ### Background and motivation
 
 The Prince Charles Mountains are some of the most remote ice-free areas in Antarctica, and Australia is dedicated to implementing new technologies for safeguarding Antarcticas's biodiversity.
@@ -28,7 +27,6 @@ _Field work at Mt. Menzies_
 Files listed below and discussed here are available via [Github](https://github.com/macrobiotus/pcm-eukaryotes-). My analysis initially checks the suitability of the employed PCR primers (```000_r_in_silico_pcr.R```, with the [R](https://www.r-project.org/) language). Subsequently, various tools are used for quality check and quality filtering of data. I use [Bash](https://www.gnu.org/software/bash/), initially for metadata assembly (e.g. ```090_bash_create_manifests.sh``` ), and then to combine purposeful features of  [Qiime](https://qiime2.org/) 1 and 2 with software such as [Cutadapt](https://cutadapt.readthedocs.io/en/stable/), [Gnuplot](http://www.gnuplot.info/), [Blast](https://blast.ncbi.nlm.nih.gov/Blast.cgi), and [FastTree](http://www.microbesonline.org/fasttree/).  Denoising is implemented via [DADA2](https://benjjneb.github.io/dada2/tutorial.html) in  [Qiime](https://qiime2.org/) (```110_q2_denoise.sh```). Custom analysis steps (predominantly scripts with numbers higher than ```180...``` ) are implemented using [R](https://www.r-project.org/). 
 
 I give a most detailed description of the works entire analysis history in the projects [README.md](https://github.com/macrobiotus/pcm-eukaryotes-/blob/master/README.md). In this file I included commit hashes to easily revert to  earlier code versions. Scripts ought to be run in consecutive order as indicated by their preceding number codes. Additional information, and imagery, as well as a snapshot of the project code at time of pre-print submission I provided via [Zenodo](https://doi.org/10.5281/zenodo.4579840).
-
 
 ```
 .
@@ -58,10 +56,7 @@ I give a most detailed description of the works entire analysis history in the p
 └── README.md
 ```
 
-
-
 ## Example 2: _Environmental DNA analysis needs local reference data to inform taxonomy-based conservation policy – A case study from Aotearoa / New Zealand_
-
 
 ### Background and motivation
 
@@ -86,7 +81,6 @@ All scripts used for analysis, and listed below  are available via [Github](http
 The repository's [README.md](https://github.com/macrobiotus/Fiordland-eDNA#readme) file gives a comprehensive overview over the project history. I include commit hashes to enable easily going back to an earlier code version. Scripts ought to be run in consecutive order as indicated by their preceding number codes.
 
 Additional information, and imagery, as well as a snapshot of the project code at time of pre-print submission are available via [Zenodo](https://doi.org/10.5281/zenodo.4638297).
-
 
 ```
 .
@@ -114,4 +108,3 @@ Additional information, and imagery, as well as a snapshot of the project code a
 ├── 999_r_mdl-makeBarPlots_310721.R
 └── README.md
 ```
-
