@@ -75,7 +75,7 @@ In this project I evaluated the impact of lacking environmental DNA reference da
 
 During review, an often-overlooked aspect of this analysis has been the detailed alignment-level analysis of species misidentifications, at a level that is uncommon in other eDNA studies. It is absolutely crucial to have detailed reference data for species level biodiversity surveys. 
 
-![]regression_summary.png)
+![](regression_summary.png)
 
 _Summary of binomial regression. Regression analysis of the 142 non-unique eDNA observations (Tjur's R2 0.027) suggested each additional alignment gap to be associated with a 39% increased probability of observing a non-native species (Odds Ratio 1.39, 95% CI from 1.19 to 1.66, p <0.01). At the same time, a 1% increase in alignment concordance was associated with a 7% increased probability of non-native observation (OR 1.07, 95% CI 1.03 - 1.12, p <0.01)._
 
