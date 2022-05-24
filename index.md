@@ -80,7 +80,7 @@ _Thanks to Fiona, Tessa, Nick, Adrian, Josh, and Mark Stevens_
 
 [_Environmental DNA analysis needs local reference data to inform taxonomy-based conservation policy – A case study from Aotearoa / New Zealand_](https://www.biorxiv.org/content/10.1101/2021.10.22.465527v1)
 
-### Background and motivation
+### Background and motivation 
 
 Fishing is one of the biggest industries in New Zealand, and Fiordland is an UNESCO world heritage site very important for the replenishment of New Zealand fish stocks. The analysis of environmental DNA with regards to fish was motivated by a request of the New Zealand Department of Conservation (Monique Ladds) to explore suitability of recent molecular biological approaches to assesses biodiversity of fish in marine reserves.
 
@@ -98,7 +98,7 @@ During review, an often-overlooked aspect of this analysis has been the detailed
 
 _Summary of binomial regression. Regression analysis of the 142 non-unique eDNA observations (Tjur's R2 0.027) suggested each additional alignment gap to be associated with a 39% increased probability of observing a non-native species (Odds Ratio 1.39, 95% CI from 1.19 to 1.66, p <0.01). At the same time, a 1% increase in alignment concordance was associated with a 7% increased probability of non-native observation (OR 1.07, 95% CI 1.03 - 1.12, p <0.01)._
 
-### [Code access](https://github.com/macrobiotus/Fiordland-eDNA) and remarks
+### [Code access](https://github.com/macrobiotus/Fiordland-eDNA) and remarks 
 
 All scripts used for analysis, and listed below  are available via [Github](https://github.com/macrobiotus/Fiordland-eDNA). Similar to my aforementioned project, I started by evaluating primer suitability (```000_r_in_silico_pcr.R```), read in metadata from Excel sheets and stored them as R data objects ( ```200_r_metadata_management.R```), checked and cleaned data for analysis (from ```300_bash_cutadapt_demultiplex.sh``` to ```980_q2_export_objects.sh```), and implemented project specific analysis steps  (using R from ```990_r_get_eDNA_long_table.r``` to ```998_r_summarize_results.r``` ). An effortful task was the retrieval, formatting and mapping of data from OBIS (in ```998_r_get_OBIS_and_map.r```). As usual, Blast output can be inspected with [MEGAN](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/algorithms-in-bioinformatics/software/megan6/).
 
