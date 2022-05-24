@@ -14,7 +14,7 @@
       https://orcid.org/0000-0001-7894-4042
     </a>
 
-I provide two **recent samples of my existing work** concerning [environmental DNA analysis](https://en.wikipedia.org/wiki/Environmental_DNA) in the [Prince Charles Mountains](https://en.wikipedia.org/wiki/Prince_Charles_Mountains) and [Fiordland](https://en.wikipedia.org/wiki/Fiordland). Alongside code comments and structure I include brief remarks on the both projects. Beyond **this text** note further cross-references:
+I provide two **recent samples of my existing work** (of the last two years) concerning [environmental DNA analysis](https://en.wikipedia.org/wiki/Environmental_DNA) in the [Prince Charles Mountains](https://en.wikipedia.org/wiki/Prince_Charles_Mountains) and [Fiordland](https://en.wikipedia.org/wiki/Fiordland). Alongside code comments and structure I include brief remarks on the both projects. Beyond **this text** note further cross-references:
 
 * Code is accessible via individual [Github](https://github.com/macrobiotus) links.
 * Further supplemental materials are available via individual permanently stored archives at [Zenodo](https://zenodo.org/)
