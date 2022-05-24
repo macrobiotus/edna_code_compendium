@@ -10,7 +10,7 @@ Code for both described projects was listed on my original EHA application. Furt
 
 ## Example 1 – Antarctica
 
-[**_Antarctic biodiversity predictions through substrate qualities and environmental DNA_**](https://www.biorxiv.org/content/10.1101/2021.08.18.456862v1).
+[_Antarctic biodiversity predictions through substrate qualities and environmental DNA_](https://www.biorxiv.org/content/10.1101/2021.08.18.456862v1).
 
 ### Background and motivation
 
@@ -60,7 +60,7 @@ I give a most detailed description of the works entire analysis history in the p
 
 ## Example 2 - Oceania
 
-[**_Environmental DNA analysis needs local reference data to inform taxonomy-based conservation policy – A case study from Aotearoa / New Zealand_**](https://www.biorxiv.org/content/10.1101/2021.10.22.465527v1)
+[_Environmental DNA analysis needs local reference data to inform taxonomy-based conservation policy – A case study from Aotearoa / New Zealand_](https://www.biorxiv.org/content/10.1101/2021.10.22.465527v1)
 
 ### Background and motivation
 
