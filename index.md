@@ -28,11 +28,11 @@ Code for both described projects was listed on my original EHA application. Furt
 
 ### Background and motivation
 
-The Prince Charles Mountains are some of the most remote ice-free areas in Antarctica, and Australia is dedicated to implementing new technologies for safeguarding Antarcticas's biodiversity.
+The Prince Charles Mountains are some of the most remote ice-free areas in Antarctica, and Australia is dedicated to implementing new technologies for safeguarding Antarcticas's biodiversity. 
 
 I started this new analysis of my Antarctic data during  New Zealand's first lockdown ([31 March 2020](https://covid19.govt.nz/about-our-covid-19-response/history-of-the-covid-19-alert-system/)). The resulting article is in production at   ESA's well-regarded [Frontiers in Ecology and the Environment](https://www.esa.org/frontiers-in-ecology-and-the-environment/).
 
-In this project I investigate the distribution of cryptic Antarctic invertebrates living in remote island-like terrestrial habitats of Antarctica in relation to soil geochemical and mineral properties of their substrate. I found neutral substrate pH, low conductivity, and some substrate minerals to be important predictors of presence for basidiomycetes, chlorophytes, ciliophorans, nematodes, or tardigrades. We collected soils in the [Prince Charles Mountains](https://en.wikipedia.org/wiki/Prince_Charles_Mountains), I analyzed soil environmental DNA at the [Australian Centre for Ancient DNA](https://www.adelaide.edu.au/acad/). Soil geochemical variables were measured by [APAL](https://www.apal.com.au/). I collected X-ray diffraction spectra at the [University of Canberra](https://www.canberra.edu.au/).
+In this project I investigate the distribution of cryptic Antarctic invertebrates living in remote island-like terrestrial habitats of Antarctica in relation to soil geochemical and mineral properties of their substrate. I found neutral substrate pH, low conductivity, and some substrate minerals to be important predictors of presence for basidiomycetes, chlorophytes, ciliophorans, nematodes, or tardigrades. We collected soils in the [Prince Charles Mountains](https://en.wikipedia.org/wiki/Prince_Charles_Mountains), I analyzed soil environmental DNA at the [Australian Centre for Ancient DNA](https://www.adelaide.edu.au/acad/). Soil geochemical variables were measured by [APAL](https://www.apal.com.au/). I collected X-ray diffraction spectra in collboration with Duanne White at the [University of Canberra](https://www.canberra.edu.au/). Funding was acquired by Mark Stevens (South Australian Museum)
 
 ![](mount_menzies.jpg)
 
@@ -72,19 +72,23 @@ I give a most detailed description of the works entire analysis history in the p
 └── README.md
 ```
 
+![](menzies_team.jpeg)
+
+_Thanks to Fiona, Tessa, Nick, Adrian, Josh, and Mark Stevens_ 
+
 ## Example 2 - Oceania
 
 [_Environmental DNA analysis needs local reference data to inform taxonomy-based conservation policy – A case study from Aotearoa / New Zealand_](https://www.biorxiv.org/content/10.1101/2021.10.22.465527v1)
 
 ### Background and motivation
 
-Fishing is one of the biggest industries in New Zealand, and Fiordland is an UNESCO world heritage site very important for the replenishment of New Zealand fish stocks. The analysis of environmental DNA with regards to fish was motivated by a request of the New Zealand Department of Conservation to explore suitability of recent molecular biological approaches to assesses biodiversity of fish in marine reserves.
+Fishing is one of the biggest industries in New Zealand, and Fiordland is an UNESCO world heritage site very important for the replenishment of New Zealand fish stocks. The analysis of environmental DNA with regards to fish was motivated by a request of the New Zealand Department of Conservation (Monique Ladds) to explore suitability of recent molecular biological approaches to assesses biodiversity of fish in marine reserves.
 
 I started this analysis in addition to the sequencing of the [Haast's eagle](https://en.wikipedia.org/wiki/Haast%27s_eagle) genome  at the beginning of my PostDoc at the [University of Otago](https://www.otago.ac.nz/). The article is in review at SCB [Conservation Science and Practice](https://conbio.onlinelibrary.wiley.com/journal/25784854?tabActivePane=undefined).
 
-In this project I evaluated the impact of lacking environmental DNA reference data on descriptions of the Fiordland fish biodiversity I compared eDNA-derived species identifications against Baited Remote Underwater Video (BRUV) data collected at the same time and locations as the eDNA data. Furthermore, I cross referenced both eDNA and BRUV data against species lists for the same region obtained from literature surveys and the Ocean Biodiversity Information System (OBIS).  Concordance of taxonomies between the data sources dissolved with lowering taxonomic levels, most decisively so for eDNA data. The work was entirely realized at the [University of Otago](https://www.otago.ac.nz/).
+In this project I evaluated the impact of lacking environmental DNA reference data on descriptions of the Fiordland fish biodiversity I compared eDNA-derived species identifications against Baited Remote Underwater Video (BRUV) data collected at the same time and locations as the eDNA data. Furthermore, I cross referenced both eDNA and BRUV data against species lists for the same region obtained from literature surveys and the Ocean Biodiversity Information System (OBIS).  Concordance of taxonomies between the data sources dissolved with lowering taxonomic levels, most decisively so for eDNA data. The work was entirely realized at the [University of Otago](https://www.otago.ac.nz/), lead by me, in collaboration with researchers of the Department of Marine Sciences (Chris Hepburn, Will Rayment), and the Department of Biostatistics (Michel de Lange). Funding was acquired by Michael Knapp (Otago University)
 
-![](rubber_boat.jpg)
+![](rubber_boat_2.jpg)
 
 During review, an often-overlooked aspect of this analysis has been the detailed alignment-level analysis of species misidentifications, at a level that is uncommon in other eDNA studies. It is absolutely crucial to have detailed reference data for species level biodiversity surveys. 
 
@@ -126,3 +130,6 @@ Additional information, and imagery, as well as a snapshot of the project code a
 ├── 999_r_mdl-makeBarPlots_310721.R
 └── README.md
 ```
+
+![](fiordland_team.jpeg)
+_Thanks to the divers of the Department of Marine Sciences of the University of Otago, Prof. Chris Hepburn, and our skipper Pete._
