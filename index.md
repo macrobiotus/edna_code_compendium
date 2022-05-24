@@ -90,7 +90,7 @@ In this project I evaluated the impact of lacking environmental DNA reference da
 
 ![](rubber_boat_2.jpg)
 
-_Deaprture for water sample collection and BRUV deployment_
+_Departure for water sample collection and BRUV deployment_
 
 During review, an often-overlooked aspect of this analysis has been the detailed alignment-level analysis of species misidentifications, at a level that is uncommon in other eDNA studies. It is absolutely crucial to have detailed reference data for species level biodiversity surveys. 
 
