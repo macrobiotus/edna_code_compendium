@@ -1,4 +1,4 @@
-# Eco Health Alliance code compendium
+# Code compendium
 
 I provide two **recent samples of my existing work** concerning [environmental DNA analysis](https://en.wikipedia.org/wiki/Environmental_DNA) in the [Prince Charles Mountains](https://en.wikipedia.org/wiki/Prince_Charles_Mountains) and [Fiordland](https://en.wikipedia.org/wiki/Fiordland). Alongside code comments and structure I include brief remarks on the both projects. Beyond **this text** note further cross-references:
 
@@ -8,9 +8,11 @@ I provide two **recent samples of my existing work** concerning [environmental D
 
 Code for both described projects was listed on my original EHA application. Further examples can be made available, e.g. for environmental DNA analyses [related to NSF-funded work](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1748389&HistoricalAwards=false) and [ancient genome assembly](https://en.wikipedia.org/wiki/Ancient_DNA). 
 
-## Example 1: _Antarctic biodiversity predictions through substrate qualities and environmental DNA_
+## Example 1
 
-### Background and motivation
+### _Antarctic biodiversity predictions through substrate qualities and environmental DNA_
+
+#### Background and motivation
 
 The Prince Charles Mountains are some of the most remote ice-free areas in Antarctica, and Australia is dedicated to implementing new technologies for safeguarding Antarcticas's biodiversity.
 
@@ -22,7 +24,7 @@ In this project I investigate the distribution of cryptic Antarctic invertebrate
 
 _Field work at Mt. Menzies_
 
-### Code access and remarks
+#### Code access and remarks
 
 Files listed below and discussed here are available via [Github](https://github.com/macrobiotus/pcm-eukaryotes-). My analysis initially checks the suitability of the employed PCR primers (```000_r_in_silico_pcr.R```, with the [R](https://www.r-project.org/) language). Subsequently, various tools are used for quality check and quality filtering of data. I use [Bash](https://www.gnu.org/software/bash/), initially for metadata assembly (e.g. ```090_bash_create_manifests.sh``` ), and then to combine purposeful features of  [Qiime](https://qiime2.org/) 1 and 2 with software such as [Cutadapt](https://cutadapt.readthedocs.io/en/stable/), [Gnuplot](http://www.gnuplot.info/), [Blast](https://blast.ncbi.nlm.nih.gov/Blast.cgi), and [FastTree](http://www.microbesonline.org/fasttree/).  Denoising is implemented via [DADA2](https://benjjneb.github.io/dada2/tutorial.html) in  [Qiime](https://qiime2.org/) (```110_q2_denoise.sh```). Blast output can be inspected with [MEGAN](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/algorithms-in-bioinformatics/software/megan6/). Custom analysis steps (predominantly scripts with numbers higher than ```180...``` ) are implemented using [R](https://www.r-project.org/). 
 
@@ -56,9 +58,11 @@ I give a most detailed description of the works entire analysis history in the p
 └── README.md
 ```
 
-## Example 2: _Environmental DNA analysis needs local reference data to inform taxonomy-based conservation policy – A case study from Aotearoa / New Zealand_
+## Example 2 
 
-### Background and motivation
+### _Environmental DNA analysis needs local reference data to inform taxonomy-based conservation policy – A case study from Aotearoa / New Zealand_
+
+#### Background and motivation
 
 Fishing is one of the biggest industries in New Zealand, and Fiordland is an UNESCO world heritage site very important for the replenishment of New Zealand fish stocks. The analysis of environmental DNA with regards to fish was motivated by a request of the New Zealand Department of Conservation to explore suitability of recent molecular biological approaches to assesses biodiversity of fish in marine reserves.
 
@@ -74,7 +78,7 @@ During review, an often-overlooked aspect of this analysis has been the detailed
 
 _Summary of binomial regression. Regression analysis of the 142 non-unique eDNA observations (Tjur's R2 0.027) suggested each additional alignment gap to be associated with a 39% increased probability of observing a non-native species (Odds Ratio 1.39, 95% CI from 1.19 to 1.66, p <0.01). At the same time, a 1% increase in alignment concordance was associated with a 7% increased probability of non-native observation (OR 1.07, 95% CI 1.03 - 1.12, p <0.01)._
 
-### Code access and remarks
+#### Code access and remarks
 
 All scripts used for analysis, and listed below  are available via [Github](https://github.com/macrobiotus/Fiordland-eDNA). Similar to my aforementioned project, I started by evaluating primer suitability (```000_r_in_silico_pcr.R```), read in metadata from Excel sheets and stored them as R data objects ( ```200_r_metadata_management.R```), checked and cleaned data for analysis (from ```300_bash_cutadapt_demultiplex.sh``` to ```980_q2_export_objects.sh```), and implemented project specific analysis steps  (using R from ```990_r_get_eDNA_long_table.r``` to ```998_r_summarize_results.r``` ). An effortful task was the retrieval, formatting and mapping of data from OBIS (in ```998_r_get_OBIS_and_map.r```). As usual, Blast output can be inspected with [MEGAN](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/algorithms-in-bioinformatics/software/megan6/).
 
