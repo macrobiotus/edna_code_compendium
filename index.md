@@ -20,7 +20,7 @@ I provide two **recent samples of my existing work** (of the last two years) con
 * Further supplemental materials are available via individual permanently stored archives at [Zenodo](https://zenodo.org/)
 * Corresponding article pre-prints are linked below, on [Bioxiv](https://www.biorxiv.org/search/author1%3APaul%2BCzechowski%20jcode%3Abiorxiv%20numresults%3A10%20sort%3Arelevance-rank%20format_result%3Astandard)
 
-Code for both described projects was listed on my original EHA application. Further examples can be made available, e.g. for environmental DNA analyses [related to NSF-funded work](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1748389&HistoricalAwards=false) and [ancient genome assembly](https://en.wikipedia.org/wiki/Ancient_DNA). 
+Further code examples can be made available, e.g. for environmental DNA analyses [related to NSF-funded work](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1748389&HistoricalAwards=false) and [ancient genome assembly](https://en.wikipedia.org/wiki/Ancient_DNA). 
 
 ## Example 1 – Antarctica
 
